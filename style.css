@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow: hidden;
+}
+
+.eyes {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.eyes2 {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.eye,
+.eye2 {
+    width: 240px;
+    height: 120px;
+    background: white;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 200%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ball,
+.ball2 {
+    width: 80px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
